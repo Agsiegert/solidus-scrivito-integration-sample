@@ -38,6 +38,8 @@ gem 'solidus', '~> 1.2'
 gem 'solidus_auth_devise'
 gem 'deface', '~> 1.0'
 
+gem 'underscore-rails'
+
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug'

@@ -1,0 +1,7 @@
+<%= scrivito_large_dialog do %>
+  <%= scrivito_details_for SolidusProductsWidget.description_for_editor do %>
+    <%= scrivito_details_for "Products" do %>
+      <%= scrivito_tag :div, widget, :product_ids %>
+    <% end %>
+  <% end %>
+<% end %>
